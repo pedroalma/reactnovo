@@ -1,20 +1,41 @@
 *{
     background-color: #d4e2f3;
-    margin: 0px;
+     margin: 0px;
     padding: 0px;
-    border: 0px;
+    border: 0px; 
 }
-h1,h2{
+#Header{
+    display: inline-flex;
+    margin-top: 100px;
+}
+h1{
    font-family: vioda libre ;
    font-size: 27px;
-   
 }
 img{
     width: 90px;
-    border-radius: 50px;
+    border-radius: 50px; 
 }
-.Header{
-    display: flex; 
-    flex-direction: column;
-      
+.body{
+    margin: 50px;
+}
+.caixa{
+    background-color: #ffffff;
+    padding: 1px;
+    width: 850px;
+    height: 250px; 
+    margin-left: 536px;
+}
+p{
+    background-color: #ffffff;
+    margin-left: 730px;
+    margin-top: 180px;
+}
+u{
+    background-color: #ffffff;
+}
+h2{
+    font-family:  vioda libre ;
+    font-size: 30px;
+    background-color: #ffffff;
 }
