@@ -3,16 +3,16 @@
      margin: 0px;
     padding: 0px;
     border: 0px; 
+    font-family: vioda libre;
 }
 #Header{
     display: inline-flex;
     margin-top: 100px;
 }
 h1{
-   font-family: vioda libre ;
    font-size: 27px;
 }
-img{
+#img{
     width: 90px;
     border-radius: 50px; 
 }
@@ -20,22 +20,70 @@ img{
     margin: 50px;
 }
 .caixa{
+    border-radius: 10px;
     background-color: #ffffff;
     padding: 1px;
     width: 850px;
-    height: 250px; 
-    margin-left: 536px;
+    height: 270px; 
+    margin-left: 520px;
+    margin-top: 20px;
 }
 p{
     background-color: #ffffff;
-    margin-left: 730px;
-    margin-top: 180px;
+    margin-left: 720px;
+    margin-top: 10px;
 }
 u{
     background-color: #ffffff;
 }
 h2{
-    font-family:  vioda libre ;
-    font-size: 30px;
+    margin-top: 15px;
+    font-family:  vioda libre;
+    font-size: 27px;
     background-color: #ffffff;
 }
+#imge{
+    margin-top:50px ;
+    width: 130px; 
+}
+.imge{
+    margin: 30px;
+}
+.empre{
+    margin-top: 130px;
+    display: flex;
+}
+#em{
+    margin-left: 350px;
+    width: 500px;
+    height: 300px;
+}
+#emp{
+    margin-top: 70px;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 60px;
+}
+.desta{
+    display: flex;
+}
+#dest{
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+#des{
+    margin-left: 80px; 
+    width: 500px;
+    height: 300px;
+}
+.noti{
+    display: flex;
+}
+/* #no{
+    margin-left: 390px;
+    width: 300px;
+} */
+/* #noc , .noc{
+    display: block;
+} */
