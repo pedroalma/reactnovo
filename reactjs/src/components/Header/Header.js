@@ -42,7 +42,7 @@ function Header(){
           <img src={E} id="imge" class="imge"/>
           <img src={V} id="imge" class="imge"/>
           <img src={B} id="imge" class="imge"/>
-          <p><u>VER TODOS</u></p> 
+          <h4><u>VER TODOS</u></h4> 
         </div>
 
         <div class="empre">
@@ -53,13 +53,22 @@ function Header(){
         <div class="desta">
           <h3 id="dest">Destaque-se no mercado e fortaleça sua presença com os serviços gráficos excepcionais da nossa empresa, elevando o impacto e a memorabilidade da sua marca.</h3>
           <img src={M} id="des"/>
-        </div>     
+        </div>
+        
+        <div class="notu">
 
         <div class="noti">
           <img src={co} id="no"/>
-          <h3 id="noc" class="noc">Inscreva-se em nossa newsletter</h3>
-          <h3 id="noc" class="noc">para receber últimas noticias e descontos exclusivos</h3>
-        </div>   
+        </div>
+
+        <div class="noc">
+        <h3 id="h3-1">Inscreva-se em nossa newsletter</h3>
+        <h3 id="h3-2">para receber últimas noticias e descontos exclusivos</h3>  
+        <p id="email">DIGITE O EMAIL</p> 
+        <h5 id="ins">INCREVER</h5>
+        </div>
+
+        </div>
 
         
      </>          
