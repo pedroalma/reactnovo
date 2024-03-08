@@ -13,7 +13,7 @@ import co from '../../../src/image/comunicacao.png';
 function Header(){
     return(
      <>
-
+      {/*P1*/}
         <div id="Header">
             <div className="body">
                  <img src= {C} id="img"/>
@@ -36,7 +36,8 @@ function Header(){
                  <h1>preços</h1>
             </div>
         </div>
-
+        
+        {/*P2*/}
         <div class="caixa">
           <h2>OS MAIS VENDIDOS</h2>
           <img src={E} id="imge" class="imge"/>
@@ -45,16 +46,19 @@ function Header(){
           <h4><u>VER TODOS</u></h4> 
         </div>
 
+        {/*P3*/}
         <div class="empre">
           <img src={EM} id="em"/>
           <h3 id="emp">A empresa se destaca não apenas pela capacidade técnica, mas também pela dedicação em entender as necessidades específicas de cada cliente. Seja na produção de materiais promocionais, embalagens personalizadas ou projetos gráficos complexos, a GF Gráfica se empenha em entregar resultados que superam as expectativas.</h3>
         </div>
 
+        {/*P4*/}
         <div class="desta">
           <h3 id="dest">Destaque-se no mercado e fortaleça sua presença com os serviços gráficos excepcionais da nossa empresa, elevando o impacto e a memorabilidade da sua marca.</h3>
           <img src={M} id="des"/>
         </div>
         
+        {/*P5*/}
         <div class="notu">
 
         <div class="noti">
