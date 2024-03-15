@@ -1,9 +1,9 @@
 /*P0 zerando a margin,padding,border do site e colocando uma cor e fonte para o site todo*/
 *{
-    background-color: #d4e2f3;
-     margin: 0px;
+    margin: 0px;
     padding: 0px;
     border: 0px; 
+    background-color: #d4e2f3;
     font-family: vioda libre;
 }
 /*P1 parte do topo onde estao as imagem e os textos*/
