@@ -1,14 +1,16 @@
 import './Header.css'
-import C from '../../../src/image/Cartao.png';
-import S from '../../../src/image/Site.png';
-import P from '../../../src/image/2Pessoas.png';
-import D from '../../../src/image/Dinheiro.png';
-import E from '../../../src/image/Envolepes-personalizado.png';
-import V from '../../../src/image/Cartao de visita.png';
-import B from '../../../src/image/Banner Personalizado.png';
-import EM from '../../../src/image/empresa.png';
-import M from '../../../src/image/mercado.png';
-import co from '../../../src/image/comunicacao.png';
+import React from 'react';
+
+import C from '../../image.H/Cartao.png';
+import S from '../../image.H/Site.png';
+import P from '../../image.H/2Pessoas.png';
+import D from '../../image.H/Dinheiro.png';
+import E from '../../image.H/Envolepes-personalizado.png';
+import V from '../../image.H/Cartao de visita.png';
+import B from '../../image.H/Banner Personalizado.png';
+import EM from '../../image.H/empresa.png';
+import M from '../../image.H/mercado.png';
+import co from '../../image.H/comunicacao.png';
 
 function Header(){
     return(
@@ -68,8 +70,10 @@ function Header(){
         <div class="noc">
         <h3 id="h3-1">Inscreva-se em nossa newsletter</h3>
         <h3 id="h3-2">para receber últimas noticias e descontos exclusivos</h3>  
-        <p id="email">DIGITE O EMAIL</p> 
-        <h5 id="ins">INCREVER</h5>
+        <input id='email' type='text' placeholder='DIGITE O EMAIL'/>
+        <div >
+        <button>Inscreva</button>
+        </div>
         </div>
 
         </div>

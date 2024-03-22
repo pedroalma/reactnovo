@@ -31,7 +31,6 @@ h1{
     margin-left: 520px;
     margin-top: 20px;
 }
-
 h2{
     margin-top: 15px;
     font-family:  vioda libre;
@@ -109,7 +108,7 @@ u{
     border-width: 3px;
     width: 500px;
     text-align: left;
-    padding-top: 8px;
+    padding-top: 3px;
     padding-left: 12px;
     height: 25px;
     border-radius: 17px;
@@ -124,4 +123,7 @@ u{
     margin-left: 200px;
     margin-top: 30px;
     border-radius: 5px;
+}
+::placeholder{
+    font-size: 18px;
 }
