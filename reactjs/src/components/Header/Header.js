@@ -68,14 +68,15 @@ function Header(){
         </div>
 
         <div class="noc">
+        <div class="osdl">
         <h3 id="h3-1">Inscreva-se em nossa newsletter</h3>
-        <h3 id="h3-2">para receber últimas noticias e descontos exclusivos</h3>  
+        <h3 id="h3-2">para receber últimas noticias e descontos exclusivos</h3>
+        </div>  
         <input id='email' type='text' placeholder='DIGITE O EMAIL'/>
         <div >
         <button>Inscreva</button>
         </div>
         </div>
-
         </div>
 
         
